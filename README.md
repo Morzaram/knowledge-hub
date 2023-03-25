@@ -1,4 +1,7 @@
 <p align="center">
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 <a href="https://climatetown.github.io/knowledge-hub">
 <img width="200" src="static/images/knowledge-hub-logo.png">
 </a>
@@ -85,6 +88,20 @@ To run pre-commit manually (without making a commit), use `pre-commit run --all-
 ## Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Morzaram"><img src="https://avatars.githubusercontent.com/u/70202379?v=4?s=100" width="100px;" alt="Chris King"/><br /><sub><b>Chris King</b></sub></a><br /><a href="https://github.com/Morzaram/knowledge-hub/commits?author=Morzaram" title="Code">💻</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 

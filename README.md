@@ -69,6 +69,18 @@ To set up Python:
 
 This codebase uses [`pip-tools`](https://pypi.org/project/pip-tools/) to manage dependencies. If you add a new dependency, you can add it to `requirements.in` and run `pip-compile` to update `requirements.txt`. To update your environment run `pip-sync`.
 
+### OPTIONAL: Loading YouTube Data
+To set up the YouTube API (important for working on scripts with YouTube video scraping):
+
+- Follow the python installation steps above
+- Go to <https://console.cloud.google.com> and create account
+- Go to <https://console.cloud.google.com/apis/credential>
+- Make an API Key: Create Credentials > API Key
+- Enable Youtube API v3 <https://console.cloud.google.com/marketplace/product/google/youtube.googleapis.com>
+- Make a .env file in root folder (where this file is)
+- Add YOUTUBE_API_KEY=YourApiKeyHere
+- Run python scripts/youtube.py
+
 ### OPTIONAL: Pre-commit
 
 This codebase uses [pre-commit](https://pre-commit.com/) and [pre-commit CI](https://pre-commit.ci/) to run linting on code, format Python code, and generally have help with code quality.
